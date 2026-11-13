@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netcraft | Tienda Gamer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <div id="header-placeholder"></div>
+
+  <main>
+    <div class="layout-container">
+      <button class="filter-toggle-btn" onclick="toggleFilters()">
+        <i class="fas fa-chevron-down"></i> Mostrar Filtros
+      </button>
+      <aside class="sidebar-filters" id="filters-panel">
+        <div class="filter-header">
+          <div class="filter-header-title">
+            <i class="fas fa-sliders-h"></i>
+            <span>Filtros</span>
+          </div>
+          <button class="clear-filters-btn" onclick="limpiarFiltros()">Limpiar filtros</button>
+        </div>
+
+        <div class="filter-group">
+          <h3 class="filter-title">Marca</h3>
+          <div class="filter-options">
+            <label class="filter-label">
+              <input type="checkbox" class="filter-checkbox" value="asus">
+              <span class="filter-text">ASUS</span>
+            </label>
+            <label class="filter-label">
+              <input type="checkbox" class="filter-checkbox" value="lenovo">
+              <span class="filter-text">LENOVO</span>
+            </label>
+            <label class="filter-label">
+              <input type="checkbox" class="filter-checkbox" value="hp">
+              <span class="filter-text">HP</span>
+            </label>
+            <label class="filter-label">
+              <input type="checkbox" class="filter-checkbox" value="acer">
+              <span class="filter-text">ACER</span>
+            </label>
+            <label class="filter-label">
+              <input type="checkbox" class="filter-checkbox" value="msi">
+              <span class="filter-text">MSI</span>
+            </label>
+            <label class="filter-label">
+              <input type="checkbox" class="filter-checkbox" value="gigabyte">
+              <span class="filter-text">GIGABYTE</span>
+            </label>
+            <label class="filter-label">
+              <input type="checkbox" class="filter-checkbox" value="kingston">
+              <span class="filter-text">KINGSTON</span>
+            </label>
+            <label class="filter-label">
+              <input type="checkbox" class="filter-checkbox" value="logitech">
+              <span class="filter-text">LOGITECH</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <h3 class="filter-title">Categoría</h3>
+          <div class="filter-options">
+            <label class="filter-label">
+              <input type="checkbox" class="filter-checkbox" value="procesadores">
+              <span class="filter-text">PROCESADORES</span>
+            </label>
+            <label class="filter-label">
+              <input type="checkbox" class="filter-checkbox" value="tarjetas-de-video">
+              <span class="filter-text">TARJETAS DE VIDEO</span>
+            </label>
+            <label class="filter-label">
+              <input type="checkbox" class="filter-checkbox" value="laptops">
+              <span class="filter-text">LAPTOPS</span>
+            </label>
+            <label class="filter-label">
+              <input type="checkbox" class="filter-checkbox" value="perifericos">
+              <span class="filter-text">PERIFÉRICOS</span>
+            </label>
+            <label class="filter-label">
+              <input type="checkbox" class="filter-checkbox" value="almacenamiento">
+              <span class="filter-text">ALMACENAMIENTO</span>
+            </label>
+            <label class="filter-label">
+              <input type="checkbox" class="filter-checkbox" value="monitores">
+              <span class="filter-text">MONITORES</span>
+            </label>
+          </div>
+        </div>
+      </aside>
+
+      <main class="products-area">
+        <div class="products-header">
+          <h1 class="page-title">CATÁLOGO DE PRODUCTOS</h1>
+          <div class="sort-by">
+            <label for="ordenar">Ordenar:</label>
+            <select id="ordenar" class="sort-select">
+              <option value="relevancia">Relevancia</option>
+              <option value="menor">Precio: Menor a Mayor</option>
+              <option value="mayor">Precio: Mayor a Menor</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="catalog-grid" id="contenedor-productos">
+          <!-- Los productos se cargarán dinámicamente desde productos.json -->
+        </div>
+      </main>
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <div id="chatbot-placeholder"></div>
+
+  <script src="header.js"></script>
+  <script src="footer.js"></script>
+  <script src="chatbot.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

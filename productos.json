@@ -1,0 +1,218 @@
+  [
+  {
+    "id": 1,
+    "nombre": "Tarjeta RTX 4070",
+    "precio": 2500,
+    "imagen": "img/p1.png",
+    "marca": "asus",
+    "categoria": "tarjetas-de-video",
+    "top": true
+  },
+  {
+    "id": 2,
+    "nombre": "Teclado Mecánico RGB",
+    "precio": 350,
+    "imagen": "img/p2.png",
+    "marca": "logitech",
+    "categoria": "perifericos",
+    "top": true
+  },
+  {
+    "id": 3,
+    "nombre": "Procesador Intel i7",
+    "precio": 1800,
+    "imagen": "img/p3.jpg",
+    "marca": "gigabyte",
+    "categoria": "procesadores",
+    "top": true
+  },
+  {
+    "id": 4,
+    "nombre": "Monitor 144Hz",
+    "precio": 950,
+    "imagen": "img/p4.jpg",
+    "marca": "acer",
+    "categoria": "monitores",
+    "top": true
+  },
+  {
+    "id": 5,
+    "nombre": "Laptop Core I7-14650hx Msi Katana 15 Hx B14wek",
+    "precio": 2300,
+    "imagen": "img/p5.jpg",
+    "marca": "msi",
+    "categoria": "laptops",
+    "top": true
+  },
+  {
+    "id": 6,
+    "nombre": "Procesador Amd Ryzen 3 3200g",
+    "precio": 266.15,
+    "imagen": "img/p6.jpg",
+    "marca": "hp",
+    "categoria": "procesadores",
+    "top": true
+  },
+  {
+    "id": 7,
+    "nombre": "Memoria Para Laptop Sodimm Kingston Ddr4 8gb",
+    "precio": 1800,
+    "imagen": "img/p7.jpg",
+    "marca": "Kingston",
+    "categoria": "almacenamiento",
+    "top": true
+  },
+  {
+    "id": 8,
+    "nombre": "Lenovo IdeaPad 3 15IAH7, Core i5-12450H",
+    "precio": 950,
+    "imagen": "img/p8.jpg",
+    "marca": "lenovo",
+    "categoria": "laptops",
+    "top": true
+  },
+  {
+    "id": 9,
+    "nombre": "Laptop Gamer ASUS ROG Strix G15",
+    "precio": 4500,
+    "imagen": "img/p9.jpg",
+    "marca": "asus",
+    "categoria": "laptops",
+    "top": false
+  },
+  {
+    "id": 10,
+    "nombre": "Memoria Ddr4 De 32gb Kingston Fury Beast 3200mhz Para Pc",
+    "precio": 150,
+    "imagen": "img/p10.jpg",
+    "marca": "kingston",
+    "categoria": "almacenamiento",
+    "top": false
+  },
+  {
+    "id": 11,
+    "nombre": "Monitor Samsung 24 Pulgadas",
+    "precio": 537.85,
+    "imagen": "img/p11.jpg",
+    "marca": "Samsung",
+    "categoria": "monitores",
+    "top": false
+  },
+  {
+    "id": 12,
+    "nombre": "Monitor Portatil Msi Pro 16 Pulgadas",
+    "precio": 416.4,
+    "imagen": "img/p12.jpg",
+    "marca": "msi",
+    "categoria": "monitores",
+    "top": false
+  },
+  {
+    "id": 13,
+    "nombre": "Procesador Intel Core I7 14700f 2.1ghz Hasta 5.4ghz 33mb",
+    "precio": 3583.18,
+    "imagen": "img/p13.jpg",
+    "marca": "hp",
+    "categoria": "procesadores",
+    "top": false
+  },
+  {
+    "id": 14,
+    "nombre": "Tarjeta De Video Gigabyte Geforce Rtx 5050 8gb",
+    "precio": 1462.48,
+    "imagen": "img/p14.jpg",
+    "marca": "asus",
+    "categoria": "tarjetas-de-video",
+    "top": false
+  },
+  {
+    "id": 15,
+    "nombre": "Mouse Gaming Logitech G309",
+    "precio": 277.15,
+    "imagen": "img/p15.jpg",
+    "marca": "logitech",
+    "categoria": "perifericos",
+    "top": false
+  }, 
+  {
+    "id": 16,
+    "nombre": "Laptop Gamer Asus Rog G513ic-Hn046t, Ryzen 7-4800h,15.6",
+    "precio": 4500,
+    "imagen": "img/p16.jpg",
+    "marca": "asus",
+    "categoria": "laptops",
+    "top": false
+  },
+  {
+    "id": 17,
+    "nombre": "Asus Rog Strix G17 17.3 240hz Qhd Gaming Laptop",
+    "precio": 5300,
+    "imagen": "img/p17.jpg",
+    "marca": "asus",
+    "categoria": "laptops",
+    "top": false
+  },
+  {
+    "id": 18,
+    "nombre": "Unidad De Almacenamiento Ssd M.2 Pcie Kingston 500gb Nvme Nv3",
+    "precio": 150,
+    "imagen": "img/p18.jpg",
+    "marca": "kingston",
+    "categoria": "almacenamiento",
+    "top": false
+  },
+  {
+    "id": 19,
+    "nombre": "Tarjeta De Video Msi Geforce Rtx 5050 8gb Ventus 2x Oc Gddr6",
+    "precio": 150,
+    "imagen": "img/p19.jpg",
+    "marca": "msi",
+    "categoria": "tarjetas-de-video",
+    "top": false
+  },
+  {
+    "id": 20,
+    "nombre": "Mouse Logitech G203 Lightsync",
+    "precio": 330,
+    "imagen": "img/p20.jpg",
+    "marca": "logitech",
+    "categoria": "perifericos",
+    "top": true
+  },
+  {
+    "id": 21,
+    "nombre": "Laptop Asus TUF Gaming FA608PM-RV078, Amd Rysen 9-8940HX, 16GB",
+    "precio": 4500,
+    "imagen": "img/p21.jpg",
+    "marca": "asus",
+    "categoria": "laptops",
+    "top": false
+  },
+  {
+    "id": 22,
+    "nombre": "Teclado Gamer F2067 (Aul-F2067-Gry-Rbw) Mecanico   ",
+    "precio": 140,
+    "imagen": "img/p22.jpg",
+    "marca": "logitech",
+    "categoria": "perifericos",
+    "top": true
+  },
+  {
+    "id": 23,
+    "nombre": "Teclado Gamer Inalambrico Logitech G Pro X 60 ",
+    "precio": 683.59,
+    "imagen": "img/p23.jpg",
+    "marca": "logitech",
+    "categoria": "perifericos",
+    "top": true
+  },
+  {
+    "id": 24,
+    "nombre": "Mouse Inalambrico Logitech G305 Ligthspeed Gaming",
+    "precio": 144.01,
+    "imagen": "img/p24.jpg",
+    "marca": "logitech",
+    "categoria": "perifericos",
+    "top": true
+  }
+]

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netcraft | Tienda Gamer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <div id="header-placeholder"></div>
+
+  <main>
+    <section class="hero">
+      <div class="slider">
+        <div class="hero-slide active">
+          <img src="img/banner-principal.png" alt="Promoción Gamer 1" class="banner-img">
+        </div>
+        <div class="hero-slide">
+          <img src="img/banner2.png" alt="Promoción Gamer 2" class="banner-img">
+        </div>
+        <div class="hero-slide">
+          <img src="img/banner3.png" alt="Promoción Gamer 3" class="banner-img">
+        </div>
+        <div class="hero-slide">
+          <img src="img/banner4.png" alt="Promoción 4" class="banner-img">
+        </div>
+        <div class="hero-slide">
+          <img src="img/banner5.png" alt="Promoción 5" class="banner-img">
+        </div>
+
+        <button class="hero-prev" onclick="controlarHero(-1)">&#10094;</button>
+        <button class="hero-next" onclick="controlarHero(1)">&#10095;</button>
+      </div>
+    </section>
+
+    <section class="products-section">
+      <h2 class="section-title">NUESTROS PRODUCTOS TOP</h2>
+      <div class="product-grid">
+        <!-- Los productos se cargarán dinámicamente desde productos.json -->
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="reviews-container">
+        <div class="review-card">
+          <p>
+            "Excelente calidad de los productos, Juan Pérez me atendió muy
+            bien."
+          </p>
+          <cite>- Juan Pérez</cite>
+        </div>
+        <div class="review-card">
+          <p>"La mejor tienda gamer de Lima, la laptop que compré vuela."</p>
+          <cite>- María García</cite>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <div id="chatbot-placeholder"></div>
+
+  <script src="header.js"></script>
+  <script src="footer.js"></script>
+  <script src="chatbot.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

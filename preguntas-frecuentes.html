@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes | NetCraft</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="faq-container">
+        <h1><i class="fas fa-question-circle"></i> Centro de Ayuda</h1>
+        
+        <div class="faq-item">
+            <div class="faq-question">¿Hacen envíos a todo el Perú? <i class="fas fa-chevron-down"></i></div>
+            <div class="faq-answer">Sí, llegamos a todas las provincias vía Olva Courier o Shalom. El tiempo de entrega en Lima es de 24-48h y en provincias de 3 a 5 días hábiles.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Los productos tienen garantía? <i class="fas fa-chevron-down"></i></div>
+            <div class="faq-answer">Todos nuestros componentes cuentan con garantía local de 12 meses. Para procesadores y gráficas, la garantía se extiende según la marca (Asus, MSI, Gigabyte).</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Qué métodos de pago aceptan? <i class="fas fa-chevron-down"></i></div>
+            <div class="faq-answer">Aceptamos todas las tarjetas de crédito/debito, transferencias bancarias (BCP, BBVA, Scotiabank) y pagos vía Yape o Plin.</div>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="index.html" style="color: var(--primary-cyan); text-decoration: none;">&larr; Volver a la tienda</a>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                
+                // Toggle: si está abierto lo cierra, si está cerrado lo abre
+                item.classList.toggle('active');
+                
+                // Opcional: Cerrar los otros cuando abres uno (estilo acordeón real)
+                document.querySelectorAll('.faq-item').forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
