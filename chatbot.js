@@ -35,7 +35,7 @@
   `;
 })();
 
-const NETBOT_WEBHOOK = "https://paneln8n.serviciosatumedidapro.com/webhook/3730d8bd-2059-48b9-a450-bfa589295b74/chat";
+const NETBOT_WEBHOOK = "https://paneln8n.serviciosatumedidapro.com/webhook/6f3e0127-bc9e-4042-8446-b15fce0d6673/chat";
 let netbotSession = "session_" + Math.random().toString(36).substr(2, 9);
 let netbotOpen = false;
 
